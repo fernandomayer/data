@@ -1,0 +1,20 @@
+---
+title: "Data files"
+date: "Last update: `r date()`"
+output: html_document
+---
+
+```{r, comment=NA, asis=TRUE, echo=FALSE}
+## List files with these extensions
+fls <- dir(pattern = "*.(txt|csv|dat|ods)$", recursive = TRUE,
+           ignore.case = TRUE)
+## Get only dirnames
+fls.dir <- dirname(fls)
+## Get some info from files
+fls.info <- file.info(fls)[, c(1, 4, 5)]
+## Append dirname
+fls.info <- as.data.frame(append(fls.info, list(dir = fls.dir), after = 1))
+## Make row.names became filenames with path
+row.names(fls.info) <- paste0("[", fls, "]", "(", fls, ")")
+knitr::kable(fls.info)
+```

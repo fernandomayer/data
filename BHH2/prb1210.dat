@@ -1,0 +1,10 @@
+trial x1 x2 yiel       color     crowth time
+    1 -1 -1 21.1        Blue       None  150
+    2 -1  0 23.7        Blue       None   10
+    3 -1  1 20.7         Red       None    8
+    4  0 -1 21.1 SlightlyRed       None   35
+    5  0  0 24.1        Blue VelySlight    8
+    6  0  1 22.2  Unobserved     Slight    7
+    7  1 -1 18.4 SlightlyRed     Slight   18
+    8  1  0 23.4         Red       Much    8
+    9  1  1 21.9     VeryRed       Much   10

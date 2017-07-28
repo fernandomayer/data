@@ -1,0 +1,19 @@
+## Montgomery, Estatistica aplicada e probabilidade para engenheiros, ex. 14-18
+Tratamento	y
+(1)	42
+a	31
+b	45
+ab	29
+c	39
+ac	28
+bc	46
+abc	32
+d	40
+ad	30
+bd	50
+abd	25
+cd	40
+acd	25
+bcd	50
+abcd	23
+

@@ -1,0 +1,9 @@
+test depth depthLevel watering wateringLevel type typeLevel rep1 rep2 rep3
+   1    -1        0.5       -1          once   -1      baby    6    7    6
+   2     1        1.5       -1          once   -1      baby    4    5    5
+   3    -1        0.5        1         twice   -1      baby   10    9    8
+   4     1        1.5        1         twice   -1      baby    7    7    6
+   5    -1        0.5       -1          once    1     large    4    5    4
+   6     1        1.5       -1          once    1     large    3    3    1
+   7    -1        0.5        1         twice    1     large    8    7    7
+   8     1        1.5        1         twice    1     large    5    5    4

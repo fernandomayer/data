@@ -1,0 +1,11 @@
+## Montgomery, Estatistica aplicada e probabilidade para engenheiros, ex. 14-37
+Suco	Exercicio	Intervalo	Periodo	Glicose
+4	10	0	pm	71.5
+8	10	0	am	103
+4	20	0	am	83.5
+8	20	0	pm 	126
+4	10	20	am	125.5
+8	10	20	pm	129.5
+4	20	20	pm	95
+8	20	20	am	93
+

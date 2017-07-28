@@ -1,0 +1,9 @@
+run A B C D E  y1  y2  y3  y4       y5       y6
+  1 -1 -1 -1 +1 -1  no  no yes  no slightly      yes
+  2 +1 -1 -1 +1 +1  no yes yes yes slightly      yes
+  3 -1 +1 -1 -1 +1  no  no  no yes       no       no
+  4 +1 +1 -1 -1 -1  no yes  no  no       no       no
+  5 -1 -1 +1 -1 +1 yes  no  no yes       no slightly
+  6 +1 -1 +1 -1 -1 yes yes  no  no       no       no
+  7 -1 +1 +1 +1 -1 yes  no yes  no slightly      yes
+  8 +1 +1 +1 +1 +1 yes yes yes yes slightly      yes

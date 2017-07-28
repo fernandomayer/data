@@ -1,0 +1,9 @@
+run oreder relHumid ambTemp Pump Imperfections
+  1      4       40      70   On            77
+  2      7       50      70   On            67
+  3      1       40      95   On            28
+  4      2       50      95   On            32
+  5      3       40      70  Off            75
+  6      6       50      70  Off            73
+  7      5       40      95  Off            29
+  8      8       50      95  Off            28
