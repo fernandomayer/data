@@ -6,7 +6,7 @@ output: html_document
 
 ```{r, comment=NA, asis=TRUE, echo=FALSE}
 ## List files with these extensions
-fls <- dir(pattern = "*.(txt|csv|dat|ods)$", recursive = TRUE,
+fls <- dir(pattern = "*.(txt|csv|dat|ods|xls|xlsx)$", recursive = TRUE,
            ignore.case = TRUE)
 ## Get only dirnames
 fls.dir <- dirname(fls)
