@@ -1,4 +1,4 @@
-## Mongomery, Design and Analysis of experiments, 5 ed. ex. 6-21
+## Montgomery, Design and Analysis of experiments, 8 ed. ex. 6-26
 A	B	C	D	E	y
 -1	-1	-1	-1	-1	7
 1	-1	-1	-1	-1	9
