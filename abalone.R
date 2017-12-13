@@ -41,16 +41,16 @@ write.table(da, "abalone.csv",
             col.names = TRUE, row.names = FALSE,
             sep = ",", dec = ".")
 
-## Insere areas
-nA <- round(nrow(da) * 0.2, 0)
-nB <- round(nrow(da) * 0.22, 0)
-nC <- round(nrow(da) * 0.3, 0)
-nD <- round(nrow(da) * 0.28, 0)
-sum(nA, nB, nC, nD)
+## ## Insere areas
+## nA <- round(nrow(da) * 0.2, 0)
+## nB <- round(nrow(da) * 0.22, 0)
+## nC <- round(nrow(da) * 0.3, 0)
+## nD <- round(nrow(da) * 0.28, 0)
+## sum(nA, nB, nC, nD)
 
-da$Area <- as.factor(rep(LETTERS[1:4], times = c(nA, nB, nC, nD)))
+## da$Area <- as.factor(rep(LETTERS[1:4], times = c(nA, nB, nC, nD)))
 
-bwplot(Aneis ~ Sexo | Area, data = da)
+## bwplot(Aneis ~ Sexo | Area, data = da)
 
-boxplot(Aneis ~ Sexo, data = da)
-boxplot(Aneis ~ Area, data = da)
+## boxplot(Aneis ~ Sexo, data = da)
+## boxplot(Aneis ~ Area, data = da)
