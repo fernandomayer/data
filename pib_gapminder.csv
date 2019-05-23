@@ -1,3 +1,11 @@
+# Dados obtidos do site https://www.gapminder.org/
+# Descrição:
+# pais: nome do país
+# ano: ano de referência da informação
+# pop: população total (número de habitantes)
+# continente: continente de cada país
+# expVida: expectativa de vida (em anos)
+# pibPercap: PIB per capta (em dólares)
 "pais","ano","pop","continente","expVida","pibPercap"
 "Afghanistan",1952,8425333,"Asia",28.801,779.4453145
 "Afghanistan",1957,9240934,"Asia",30.332,820.8530296
