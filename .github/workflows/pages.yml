@@ -1,0 +1,26 @@
+# .github/workflows/pages.yml
+name: Deploy data
+on:
+  push:
+    branches: [master]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gera listagens
+        run: |
+          sudo apt-get install -y tree
+          find . -type d -not -path './.git*' -not -path './.github*' | while read d; do
+            (cd "$d" && tree -H . -L 1 --noreport --dirsfirst -h -D \
+              -I 'index.html' -T "Data files: ${d#.}" -o index.html)
+          done
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
